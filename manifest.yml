@@ -1,0 +1,8 @@
+applications:
+- name: alimi-portal
+  instances: 1 
+  memory: 1G
+  path: target/alimi-portal-0.0.1-SNAPSHOT.jar
+  disk_quota: 512MB
+  env:
+    OPTIMIZE_MEMORY: true
